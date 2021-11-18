@@ -1,0 +1,41 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px auto;
+}
+.navbar-list{
+    display: flex;
+    gap: 42px;
+}
+.navbar-list a{
+    text-decoration: none;
+    color: #323232;
+}
+.navbar-list .active{
+    font-weight: 700;
+    color: #F78434;
+}
+.row{
+    display: flex;
+}
+.col{
+    max-width: 50%;
+}
+.main-heading{
+    font-size: 54px;
+    line-height: 1.5;
+    width: 640px;
+    position: relative;
+    margin-top: 127px;
+}
+.text{
+    line-height: 1.5;
+}
